@@ -9,6 +9,7 @@ The **QB Rating Calculator** is a simple script to calculate the quarterback rat
 - **User-Friendly Input**: The calculator prompts the user to enter key values such as pass attempts, completions, passing yards, touchdowns, and interceptions.
 - **Automatic Calculation**: The quarterback rating is calculated directly based on the inputs.
 - **Input Validation**: Only valid numerical inputs are accepted to prevent errors.
+- **Graphical User Interface (GUI)**: The application includes a Tkinter-based GUI for a more interactive experience.
 
 ---
 
@@ -30,7 +31,7 @@ The **QB Rating Calculator** is a simple script to calculate the quarterback rat
 2. Run the script:
 
     ```bash
-    python qbrating_funktion.py
+    python qbrating.py
     ```
 
 3. Enter the required values when prompted:
@@ -41,6 +42,14 @@ The **QB Rating Calculator** is a simple script to calculate the quarterback rat
     - Interceptions
 
 4. The program will calculate and display the quarterback rating.
+
+### GUI Mode
+
+If you prefer using the graphical interface, run:
+
+    ```bash
+    python qbrating_tkinter.py
+    ```
 
 ---
 
