@@ -9,6 +9,7 @@
 - **Student Management**: Add new students, edit their details, and delete records.
 - **Database Integration**: Seamless interaction with relational databases using Django ORM.
 - **Responsive UI**: Easy-to-use interface for managing data (if a frontend is included).
+- **Authentication**: Secure login functionality to control access to edit/delete operations.
 - **Validation**: Ensures data integrity with built-in Django model validation.
 - **Scalable**: Designed for scalability with Django’s robust architecture.
 
@@ -25,6 +26,7 @@ Ensure the following are installed:
 - **Django** (latest compatible release)
 - **pip** (Python package installer)
 - **Database** (SQLite by default)
+- **Web browser** (for accessing the frontend)
 
 ---
 
@@ -67,6 +69,24 @@ Ensure the following are installed:
     ```
     http://127.0.0.1:8000/
     ```
+
+### Frontend Setup
+
+The frontend is built using HTML, CSS, and JavaScript. It provides a responsive interface for managing student records and includes a login system.
+
+### Steps to Run the Frontend
+
+1. Navigate to the frontend directory in the project:
+
+    ```bash
+    cd frontend
+    ```
+
+2. Open index.html in your web browser.
+
+3. The login system will prompt users to authenticate before accessing student management features (for testing: username: mucki pw: mucki)
+
+4. Once logged in, users can create, edit, and delete student records through the web interface.
 
 ---
 
