@@ -28,6 +28,12 @@ Students App is a Django-based application that manages and maintains student-re
 
 ---
 
+### 4. [Tic-Tac-Toe Game](tic-tac-toe/README.md)
+A simple console-based implementation of the classic Tic-Tac-Toe game written in Python.
+[Learn more...](tic-tac-toe/README.md)
+
+---
+
 ## Why this repository?
 
 - **Learning by Doing**: This repository is my way to explore and apply Python through meaningful projects.
