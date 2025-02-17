@@ -22,6 +22,12 @@ A lightweight game that simulates exploring a procedurally generated universe, m
 
 ---
 
+### 3. [Students App](students-app/README.md)
+Students App is a Django-based application that manages and maintains student-related information.
+[Learn more...](students-app/README.md)
+
+---
+
 ## Why this repository?
 
 - **Learning by Doing**: This repository is my way to explore and apply Python through meaningful projects.
