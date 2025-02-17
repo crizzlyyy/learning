@@ -1,14 +1,13 @@
 # Simple Universe Game
 
-The **Simple Universe Game** is a lightweight game that simulates exploring a virtual universe. Players can navigate, interact with planets, and manage resources like spaceships and crew.
+The **Simple Universe Game** is a lightweight game that simulates exploring a virtual universe. Players can navigate, interact with planets, and manage resources like wood, metal and population.
 
 ---
 
 ## Features
 
 - **Explore the Universe**: Navigate through planets and other celestial objects.
-- **Resource Management**: Collect resources, manage spaceship stats, and explore efficiently.
-- **Dynamic Gameplay**: Procedurally generated universe for endless fun.
+- **Resource Management**: Collect and spend resources.
 
 ---
 
