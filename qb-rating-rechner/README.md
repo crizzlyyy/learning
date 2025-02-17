@@ -47,9 +47,9 @@ The **QB Rating Calculator** is a simple script to calculate the quarterback rat
 
 If you prefer using the graphical interface, run:
 
-    ```bash
+    
     python qbrating_tkinter.py
-    ```
+    
 
 ---
 
