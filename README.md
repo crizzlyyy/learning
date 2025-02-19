@@ -2,7 +2,7 @@
 
 Welcome to my Learning repository!  
 
-This repository demonstrates my progress as a beginner in programming. It is a collection of small projects I've worked on to showcase my skills and what I am capable of doing. 
+This repository is intended to give you an insight into what I have already learned or I am capable of doing as a beginner in programming. It is a collection of small projects I have worked on. 
 
 Feel free to explore the projects and their documentation.  
 
@@ -11,41 +11,26 @@ Feel free to explore the projects and their documentation.
 ## Repository Overview
 
 ### 1. [QB Rating Calculator](qb-rating-rechner/README.md)
-A calculator that computes the quarterback rating based on user input using standardized formulas.  
+A simple calculator that calculates the quarterback rating using defined formulas.  
 [Learn more...](qb-rating-rechner/README.md)
 
 ---
 
 ### 2. [Simple Universe Game](simple-universe-game/README.md)
-A lightweight game that simulates exploring a procedurally generated universe, managing resources, and interacting with planets.  
+A simple game in which you can create planets in a universe and create people, buldings and resources on them. Conduced to practice Classes.
 [Learn more...](simple-universe-game/README.md)
 
 ---
 
 ### 3. [Students App](students-app/README.md)
-Students App is a Django-based application that manages and maintains student-related information.
+A Django Rested API with a frontend, which is protected by a login. In the frontend dashboard, the list can be expanded and individual posts can be edited or deleted.
 [Learn more...](students-app/README.md)
 
 ---
 
 ### 4. [Tic-Tac-Toe Game](tic-tac-toe/README.md)
-A simple console-based implementation of the classic Tic-Tac-Toe game written in Python.
+A simple console-based implementation of the classic Tic-Tac-Toe game.
 [Learn more...](tic-tac-toe/README.md)
-
----
-
-## Why this repository?
-
-- **Learning by Doing**: This repository is my way to explore and apply through projects.
-- **Sharing my Journey**: I want to share my growth and change as a developer.
-
----
-
-## How to Explore the Repository
-
-1. Each subproject has its own folder and a detailed `README.md` file.
-2. Navigate to any subproject's directory to learn more about it, or use the links above.
-3. Feel free to clone the repository and try out any project.
 
 ---
 
