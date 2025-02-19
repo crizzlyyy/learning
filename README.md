@@ -2,7 +2,7 @@
 
 Welcome to my Learning repository!  
 
-This repository is intended to give you an insight into what I have already learned or I am capable of doing as a beginner in programming. It is a collection of small projects I have worked on. 
+This repository is intended to give you an insight into what I have already learned or I am capable of doing as a beginner in programming. It is a collection of small projects I have worked on to practice.
 
 Feel free to explore the projects and their documentation.  
 
