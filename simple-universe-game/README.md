@@ -20,13 +20,7 @@ Ensure you have the following installed:
     cd simple-universe-game
     ```
 
-2. Install dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Run the game:
+2. Run the game:
 
     ```bash
     python main.py
