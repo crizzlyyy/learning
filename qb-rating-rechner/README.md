@@ -1,15 +1,6 @@
 # QB Rating Calculator
 
-The **QB Rating Calculator** is a simple script to calculate the quarterback rating based on user input. It uses standardized formulas to evaluate the performance of a quarterback.
-
----
-
-## Features
-
-- **User-Friendly Input**: The calculator prompts the user to enter key values such as pass attempts, completions, passing yards, touchdowns, and interceptions.
-- **Automatic Calculation**: The quarterback rating is calculated directly based on the inputs.
-- **Input Validation**: Only valid numerical inputs are accepted to prevent errors.
-- **Graphical User Interface (GUI)**: The application includes a Tkinter-based GUI for a more interactive experience.
+A simple calculator with a GUI (Tkinter) that calculates the quarterback rating using defined formulas. It was my first Python project. Was used to practice methods and Tkinter. 
 
 ---
 
@@ -53,24 +44,6 @@ If you prefer using the graphical interface, run:
 
 ---
 
-## Example Output
-
-If the user enters the following values:
-
-- **Pass attempts**: 30
-- **Completed passes**: 20
-- **Passing yards**: 250
-- **Passing touchdowns**: 2
-- **Interceptions**: 1
-
-The program will display the following result:
-
-```bash
-The quarterback rating is 96.25
-```
-
----
-
 ## How the Calculation Works
 
 The calculation involves multiple steps:
@@ -80,4 +53,4 @@ The calculation involves multiple steps:
 3. **Touchdowns per Attempt**: `(touchdowns / pass attempts)`
 4. **Interceptions per Attempt**: `(interceptions / pass attempts)`
 
-Using these values, the quarterback rating is calculated based on a standardized formula.
+Using these values, the quarterback rating is calculated based on a defined formula.
