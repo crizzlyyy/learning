@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../mitarbeiter.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Mitarbeiter bearbeiten</h1>
+    <form onsubmit="return edit()">
+      <input id="id" type="text" readonly/>
+      <input id="nachname" type="text" />
+      <input id="vorname" type="text" />
+      <input id="strasse" type="text" />
+      <input id="hausNr" type="text" />
+      <input id="ort" type="text" />
+      <input id="plz" type="text" />
+      <input id="telefonNr" type="text" />
+      <input id="gehalt" type="text" />
+      <input id="vertragSeit" type="text" />
+      <input id="vertragBis" type="text" />
+      <div>
+        <button class="button" type="submit">Bearbeiten</button>
+        <button class="button" onclick="window.location.href = '../mitarbeiter.html'">Abbrechen</button>
+      </div>
+      
+      </form>
+ 
+    <script src="./edit.js"></script>
+  </body>
+</html>
+ 
+ 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../mitarbeiter.css">
+    <title>Mitarbeiter bearbeiten</title>
+  </head>
+  <header class="header-new">
+      <h1>Mitarbeiter bearbeiten</h1>
+    </header>
+ 
+  <body>
+    <form onsubmit="return edit()" class="newArtikelForm">
+        <div class="form-id">
+          <div class="form-id-sub">
+          <div class="label">
+          <label for="id">Personalnummer</label>
+          <input id="id" type="text" readonly/>
+        </div>
+          <div class="label">
+           <label for="nachname">Nachname</label>
+           <input id="nachname" type="text" />
+        </div>
+        <div class="label">
+          <label for="vorname">Vorname</label>
+          <input id="vorname" type="text" />
+        </div>
+        <div class="label">
+          <label for="strasse">Straße</label>
+          <input id="strasse" type="text" />
+        </div>
+      </div>      
+      <div class="form-id-sub">
+        <div class="label">
+          <label for="hausNr">Hausnummer</label>
+          <input id="hausNr" type="text" />
+        </div>
+        <div class="label">
+          <label for="ort">Ort</label>
+          <input id="ort" type="text" />
+        </div>
+        <div class="label">
+          <label for="plz">Postleitzahl</label>
+          <input id="plz" type="text" />
+        </div>
+        <div class="label">
+          <label for="telefonNr">Telefonnummer</label>
+          <input id="telefonNr" type="text" />
+        </div>
+      </div>      
+      <div class="form-id-sub">
+        <div class="label">
+          <label for="gehalt">Gehalt</label>
+          <input id="gehalt" type="text" />
+        </div>
+        <div class="label">
+          <label for="vertragSeit">Angestellt seit</label>
+          <input id="vertragSeit" type="date" />
+        </div>
+        <div class="label">
+          <label for="vertragBis">Angestellt bis</label>
+          <input id="vertragBis" type="date" />
+        </div>
+      </div>
+    </div>
+        <div class="newArtikelForm">
+        <button class="button" type="submit">Bearbeiten</button>
+        <button class="button" onclick="window.location.href = '../mitarbeiter.html'">Abbrechen</button>
+      </div>
+
+
+      
+      </form>
+    <script src="./edit.js"></script>
+  </body>
+</html>
+ 
+ 

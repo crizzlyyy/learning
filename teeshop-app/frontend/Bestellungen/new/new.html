@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bestellungen.css">
+    <title>Bestellung hinzufügen</title>
+</head>
+<header class="header-new">
+  <h1>Bestellung hinzufügen</h1>
+</header>
+<body>
+
+    <form id="newBestellungForm" class="newArtikelForm">
+      <select id="bestellungAbgeschlossen">
+        <option value="true">Bestellung abgeschlossen</option>
+        <option value="false">Bestellung offen</option>
+      </select>
+      <input placeholder="Preis eingeben"id="preis" type="text" />
+      <select id="kundenNummer">
+    <option value=""></option>
+</select>
+      <div class="newArtikelForm">
+        <button class="button" type="submit">Speichern</button>
+        <button class="button" onclick="window.history.back()">Abbrechen</button>
+      </div>
+      
+      </form>
+ 
+    <script src="./new.js"></script>
+</body>
+</html>

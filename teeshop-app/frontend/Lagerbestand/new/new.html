@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../lagerbestand.css">
+    <title>Zum Lagerbestand hinzufügen</title>
+</head>
+<header class="header-new">
+  <h1>Zum Lagerbestand hinzufügen</h1>
+</header>
+<body>
+    
+    <form id="newArtikelForm" class="newArtikelForm">
+      <select id="artikel">
+        <option value="">Artikelname</option>
+    </select>
+      <input placeholder="Menge eingeben"id="menge" type="text" />
+      <input placeholder="Mindestbestand eingeben" id="minBestand" type="text" />
+      <div class="newArtikelForm">
+        <button class="button" type="submit">Speichern</button>
+        <button class="button" onclick="window.history.back()">Abbrechen</button>
+      </div>
+      
+      </form>
+ 
+    <script src="./new.js"></script>
+</body>
+</html>

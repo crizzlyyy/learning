@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../produktkatalog.css">
+    <title>Produktkatalog bearbeiten</title>
+    <header class="header-new">
+      <h1>Produktkatalog bearbeiten</h1>
+    </header>
+  </head>
+  <body>
+    <form onsubmit="return edit()" class="newArtikelForm">
+      <div class="form-id">
+        <div class="label">
+        <label for="id">Artikelnummer</label>
+        <input id="id" type="text" readonly />
+      </div>
+      <div class="label">
+        <label for="artikel">Artikel</label>
+      <input id="artikel" type="text" />
+    </div>
+    <div class="label">
+      <label for="beschreibung">Beschreibung</label>
+      <input id="beschreibung" type="text" />
+      </div>
+      <div class="label">
+        <label for="preis">Preis</label>
+      <input id="preis" type="text" />
+      </div>
+    </div>
+      <div class="newArtikelForm">
+        <button class="button" type="submit">Bearbeiten</button>
+        <button class="button" onclick="window.location.href = '../produktkatalog.html'">Abbrechen</button>
+      </div>
+      
+      </form>
+ 
+    <script src="./edit.js"></script>
+  </body>
+</html>
+ 
+ 

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../bestellungen.css">
+    <title>Bestellung bearbeiten</title>
+  </head>
+  <header class="header-new">
+    <h1>Bestellung bearbeiten</h1>
+  </header>
+  <body>
+
+    <form onsubmit="return edit()" class="newArtikelForm">
+      <div class="form-id">
+        <div class="label">
+          <label for="id">Bestellnummer</label>
+      <input id="id" type="text" readonly />
+        </div>
+        <div class="label">
+          <label for="bestellungAbgeschlossen">Status</label>
+          <select id="bestellungAbgeschlossen">
+            <option value="true">Abgeschlossen</option>
+            <option value="false">Offen</option>
+          </select>
+        </div>
+        <div class="label">
+          <label for="preis">Preis</label>
+          <input id="preis" type="text" />
+        </div>
+        <div class="label">
+          <label for="preis">Kundennummer</label>
+          <select id="kundenNummer">
+            <option value=""></option>
+          </select>
+          </div>
+          </div>
+      <div class="newArtikelForm">
+        <button class="button" type="submit">Bearbeiten</button>
+        <button class="button" onclick="window.history.back()">Abbrechen</button>
+      </div>
+      
+      </form>
+ 
+    <script src="./edit.js"></script>
+  </body>
+</html>
+ 
+ 

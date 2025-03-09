@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../lagerbestand.css">
+    <title>Lagerbestand bearbeiten</title>
+  <header class="header-new">
+  <h1 >Lagerbestand bearbeiten</h1>
+  </header>
+  </head>
+  <body>
+   
+    <form onsubmit="return edit()" class="newArtikelForm">
+      <div class="form-id">
+      <div class="label">
+        <label for="id">Artikelnummer:</label>
+      <input id="id" type="text" readonly />
+    </div>
+    <div class="label">
+      <label for="id">Artikel</label>
+      <select id="artikel">
+        <option value="">Artikelname</option>
+    </select>
+  </div>
+    <div class="label">
+    <label for="id">Menge</label>
+      <input id="menge" type="text" />
+    </div>
+      <div class="label">
+      <label for="id">Mindestbestand</label>
+      <input id="minBestand" type="text" />
+    </div>
+  </div>
+    <div class="newArtikelForm">
+      <button class="button" type="submit">Bearbeiten</button>
+      <button class="button" onclick="window.history.back()">Abbrechen</button>
+    </div>
+    
+      </form>
+
+
+ 
+    <script src="./edit.js"></script>
+  </body>
+</html>
+ 
+ 

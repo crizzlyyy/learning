@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dashboard.css">
+    <title>Dashboard</title>
+</head>
+<header class="header">
+    <div class="wrapper-tasse">
+
+    </div>
+    <div class="wrapper-h1">
+        <h1>Willkommen in Dashboard</h1>
+    </div>
+    <div class="wrapper-logout">
+        <button class="button" onclick="logOut()">Logout</button>
+    </div>
+</header>
+
+<body>
+    <div class="tripple-wrapper">
+    <div class="wrapper-left">
+        <a href="../Lagerbestand/lagerbestand.html" class="button">Lagerbestand</a>
+        <a href="../Produktkatalog/produktkatalog.html" class="button">Produktkatalog</a>
+        <a href="../Mitarbeiter/mitarbeiter.html" class="button">Mitarbeiter</a>
+        <a href="../Bilanzdaten/bilanzdaten.html" class="button">Business durchgespielt!</a>
+        <a href="../Kunden/kunden.html" class="button">Kunden</a>
+        <a href="../Bestellungen/bestellungen.html" class="button">Bestellungen</a>
+     </div>
+        <div class="wrapper-middle">
+                <table class="middle-table">
+                    <thead class="theader-middle">
+                        <tr>
+                            <td class="theader">Umsatz</td>
+                            <td class="theader">Umsatz pro Mitarbeiter</td>
+                            <td class="theader">Bestellungen Gesamt</td>
+                            <td class="theader">Bestellungen offen</td>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body-middle">
+                        <tr>
+                            <td class="table-cell" id="gesamtUmsatz"></td>
+                            <td class="table-cell" id="umsatzProMitarbeiter"></td>
+                            <td class="table-cell" id="gesamteBestellungen"></td>
+                            <td class="table-cell" id="offeneBestellungen"></td>
+                        </tr>
+                    </tbody>
+                </table>                                   
+               <table class="middle-table">
+                    <thead class="theader-middle">
+                        <tr>
+                            <td class="theader">Kundennummer</td>
+                            <td class="theader">Gesamtumsatz</td>
+                            <td class="theader">Anzahl Bestellungen</td>
+                            <td class="theader">Umsatz pro Bestellung</td>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body-middle2">
+                        
+                </table>
+            </div>
+            
+
+
+        <div class="wrapper-right">
+            <h1 class="h1-right-wrapper">Bald nachbestellen</h1>
+            <div class="table-right-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="theader">Artikelnummer</td>
+                            <td class="theader">Artikel</td>
+                            <td class="theader">aktueller Bestand</td>
+                            <td class="theader">Mindestbestand</td>
+                        </tr>
+                    </thead>
+                </div>
+                <tbody id="table-body">
+        
+    
+                    
+            </table>
+        </div>
+    </div>
+    <script src="./dashboard.js"></script>
+</body>
+
+</html>

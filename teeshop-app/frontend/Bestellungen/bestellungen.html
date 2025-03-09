@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestellungen</title>
+    <link rel="stylesheet" href="./bestellungen.css">
+</head>
+<header class="header">
+    <div class="wrapper-tasse">
+
+    </div>
+    <div class="wrapper-h1">
+        <h1>Bestellungen</h1>
+    </div>
+    <div class="wrapper-logout">
+        <a href="http://127.0.0.1:5501/dashboard/dashboard.html" class="button">Dashboard</a>
+    </div>
+</header>
+<body>
+    <div class="div-button-new">
+        
+        <button id="newEntryButton" class="button" type="submit" onclick="newEntry()">Neu</button>
+      </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <td class="theader">Bestellnummer</td>
+                    <td class="theader">Status</td>
+                    <td class="theader">Preis</td>
+                    <td class="theader">Kundennummer</td>
+                    <td class="theader"></td>
+                    <td class="theader"></td>
+                    
+                </tr>
+            </thead>
+            <tbody id="table-body">
+    
+
+                
+        </table>
+    </div>
+    
+    <script src="./bestellungen.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* From Uiverse.io by ariba_9087 */ 
+body {
+  /* Basic dimensions and centering */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Dark mode colors and gradient */
+  background: #121212; /* Fallback for browsers that don't support gradients */
+  background: linear-gradient(
+    135deg,
+    #ff6347 25%,
+    /* Tomato */ #ff1493 25%,
+    /* DeepPink */ #8a2be2 50%,
+    /* BlueViolet */ #00bfff 50%,
+    /* DeepSkyBlue */ #ff4500 75%,
+    /* OrangeRed */ #32cd32 75%,
+    /* LimeGreen */ #ff6347 /* Tomato */
+  );
+  background-size: 40px 40px;
+
+  /* Animation */
+  animation: move 4s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 40px 40px;
+  }
+}
+
+/* Glowing effect on the lines */
+.container {
+  box-shadow:
+    0 0 10px #ff6347,
+    0 0 20px #ff1493,
+    0 0 30px #8a2be2,
+    0 0 40px #00bfff;
+  /* You can add more colors and adjust the shadow spread and intensity */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Optional: Add glowing effect on hover */
+.container:hover {
+  box-shadow:
+    0 0 20px #ff6347,
+    0 0 30px #ff1493,
+    0 0 40px #8a2be2,
+    0 0 50px #00bfff;
+}
+
+
+.button {
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #a9c25d;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: #416a59;
+  color: #ffff;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: all 0.2s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+.button:hover {
+  background: #a9c25d;
+  color: #416a59;
+  box-shadow: 0 0 30px 5px rgba(116, 161, 78, 0.815);
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.button:hover::before {
+  -webkit-animation: sh02 0.5s 0s linear;
+  -moz-animation: sh02 0.5s 0s linear;
+  animation: sh02 0.5s 0s linear;
+}
+
+.button::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #416a59;
+  box-shadow: 0 0 50px 30px #fff;
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  transform: skewX(-20deg);
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.button:active {
+  box-shadow: 0 0 0 0 transparent;
+  -webkit-transition: box-shadow 0.2s ease-in;
+  -moz-transition: box-shadow 0.2s ease-in;
+  transition: box-shadow 0.2s ease-in;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../kunden.css">
+    <title>Kunden hinzufügen</title>
+</head>
+<header class="header-new">
+  <h1>Kunden hinzufügen</h1>
+</header>
+<body>
+
+    <form id="newKundenForm" class="newArtikelForm">
+      <div>
+      <input placeholder="Vornamen eingeben" id="vorname" type="text" />
+      <input placeholder="Nachnamen eingeben" id="nachname" type="text" />
+      <input placeholder="Straße eingeben" id="strasse" type="text" />
+      <input placeholder="Hausnummer eingeben" id="hausNr" type="text" />
+    </div>
+    <div>
+      <input placeholder="Ort eingeben" id="ort" type="text" />
+      <input placeholder="Postleitzahl eingeben" id="plz" type="text" />
+      <input placeholder="E-Mailadresse eingeben" id="mailAdresse" type="text" />
+    </div>
+      <div class="newArtikelForm">
+        <button class="button" type="submit">Speichern</button>
+        <button class="button" onclick="window.history.back()">Abbrechen</button>
+      </div>
+      
+      </form>
+ 
+    <script src="./new.js"></script>
+</body>
+</html>
