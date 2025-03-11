@@ -28,7 +28,13 @@ A Django Rested API with a frontend, which is protected by a login. In the front
 
 ---
 
-### 4. [Tic-Tac-Toe Game](tic-tac-toe/README.md)
+### 4. [teeshop-app](teeshop-app/README.md)
+Like the students app only further developed with several own apps and different overviews in the dashboard.
+[Learn more...](teeshop-app/README.md)
+
+---
+
+### 5. [Tic-Tac-Toe Game](tic-tac-toe/README.md)
 A simple console-based implementation of the classic Tic-Tac-Toe game.
 [Learn more...](tic-tac-toe/README.md)
 
