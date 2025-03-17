@@ -61,7 +61,7 @@ Ensure the following are installed:
 
 ### Frontend Setup
 
-The frontend is built using HTML, CSS, and JavaScript. It provides a responsive interface for managing student records and includes a login system.
+The frontend is built using HTML, CSS, and JavaScript.
 
 ### Steps to Run the Frontend
 
